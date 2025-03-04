@@ -1,0 +1,19 @@
+{
+  "kind": "singleType",
+  "collectionName": "resident_files",
+  "info": {
+    "singularName": "resident-file",
+    "pluralName": "resident-files",
+    "displayName": "Data - Penduduk (Berkas Tambahan)"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "url": {
+      "type": "string",
+      "regex": "^(https?:\\/\\/)?([\\w-]+(\\.[\\w-]+)+)(:\\d+)?(\\/[^\\s]*)?$"
+    }
+  }
+}

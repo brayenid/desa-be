@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_resident_based_on_religions",
+  "info": {
+    "displayName": "Based On Religion",
+    "icon": "emotionHappy",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "religion": {
+      "type": "string"
+    },
+    "total": {
+      "type": "integer"
+    }
+  }
+}

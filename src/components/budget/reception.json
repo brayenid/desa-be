@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_budget_receptions",
+  "info": {
+    "displayName": "Reception",
+    "icon": "check",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "total": {
+      "type": "integer"
+    },
+    "role": {
+      "type": "enumeration",
+      "enum": [
+        "Penerimaan",
+        "Pengeluaran"
+      ],
+      "default": "Penerimaan",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_element_missions",
+  "info": {
+    "displayName": "Mission",
+    "icon": "bulletList",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "mission": {
+      "type": "string"
+    }
+  }
+}

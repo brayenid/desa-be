@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_jumbotron_jumbotrons",
+  "info": {
+    "displayName": "Jumbotron",
+    "icon": "alien",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "jumbotron": {
+      "displayName": "jumbo",
+      "type": "component",
+      "repeatable": false,
+      "component": "jumbotron.jumbo"
+    }
+  }
+}

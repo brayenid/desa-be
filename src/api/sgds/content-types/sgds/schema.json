@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "sgdss",
+  "info": {
+    "singularName": "sgds",
+    "pluralName": "sgdss",
+    "displayName": "Data - SGDs"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "url": {
+      "type": "string"
+    },
+    "sgds": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sgds.sg-ds"
+    }
+  }
+}

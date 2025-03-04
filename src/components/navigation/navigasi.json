@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_navigation_navigasis",
+  "info": {
+    "displayName": "Navigation",
+    "icon": "bulletList",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "navigation": {
+      "type": "component",
+      "repeatable": true,
+      "component": "navigation.navigasi-atas",
+      "max": 4
+    }
+  }
+}

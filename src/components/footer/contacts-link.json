@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_footer_contacts_links",
+  "info": {
+    "displayName": "Urgents Contacts",
+    "icon": "headphone",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "phone": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

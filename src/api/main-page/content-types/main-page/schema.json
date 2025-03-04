@@ -1,0 +1,37 @@
+{
+  "kind": "singleType",
+  "collectionName": "main_pages",
+  "info": {
+    "singularName": "main-page",
+    "pluralName": "main-pages",
+    "displayName": "Tampilan Beranda",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "navigation": {
+      "type": "component",
+      "repeatable": false,
+      "component": "navigation.navigasi"
+    },
+    "jumbotron": {
+      "type": "component",
+      "repeatable": false,
+      "component": "jumbotron.jumbotron"
+    },
+    "footer": {
+      "type": "component",
+      "repeatable": false,
+      "component": "footer.footer"
+    },
+    "bigCategory": {
+      "displayName": "Big Category",
+      "type": "component",
+      "repeatable": true,
+      "component": "big-category.big-category"
+    }
+  }
+}

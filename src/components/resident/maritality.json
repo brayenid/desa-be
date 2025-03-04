@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_resident_maritalities",
+  "info": {
+    "displayName": "Based On Education",
+    "icon": "feather",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "education": {
+      "type": "enumeration",
+      "enum": [
+        "SD Sederajat",
+        "SMP Sederajat",
+        "SMA Sederajat",
+        "S1",
+        "S2",
+        "S3"
+      ]
+    },
+    "total": {
+      "type": "integer"
+    }
+  }
+}

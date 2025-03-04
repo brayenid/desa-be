@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "budgets",
+  "info": {
+    "singularName": "budget",
+    "pluralName": "budgets",
+    "displayName": "Data - Anggaran",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "budget": {
+      "type": "component",
+      "repeatable": false,
+      "component": "budget.apb-des"
+    },
+    "year": {
+      "type": "integer",
+      "required": true,
+      "unique": true
+    }
+  }
+}

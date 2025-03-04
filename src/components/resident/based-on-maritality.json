@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_resident_based_on_maritalities",
+  "info": {
+    "displayName": "Based On Maritality",
+    "icon": "user"
+  },
+  "options": {},
+  "attributes": {
+    "maritality": {
+      "type": "string"
+    },
+    "total": {
+      "type": "integer"
+    }
+  }
+}

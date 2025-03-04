@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_speech_chief_speeches",
+  "info": {
+    "displayName": "Chief Speech",
+    "icon": "emotionHappy"
+  },
+  "options": {},
+  "attributes": {
+    "speech": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_budget_expenditures",
+  "info": {
+    "displayName": "Expenditure",
+    "icon": "check",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "govExpenditure": {
+      "type": "integer"
+    },
+    "villageDevelopment": {
+      "type": "integer"
+    },
+    "communityDev": {
+      "type": "integer"
+    },
+    "communityEmpowerment": {
+      "type": "integer"
+    },
+    "emergencyExpenditure": {
+      "type": "integer"
+    }
+  }
+}

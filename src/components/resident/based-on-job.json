@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_resident_based_on_jobs",
+  "info": {
+    "displayName": "Based On Job",
+    "icon": "crown"
+  },
+  "options": {},
+  "attributes": {
+    "job": {
+      "type": "string"
+    },
+    "total": {
+      "type": "integer"
+    }
+  }
+}

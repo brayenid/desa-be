@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_blocks_markdowns",
+  "info": {
+    "displayName": "Markdown",
+    "icon": "quote",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "markdown": {
+      "type": "blocks"
+    }
+  }
+}

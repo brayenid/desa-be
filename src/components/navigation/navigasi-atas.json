@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_navigation_navigasi_atas",
+  "info": {
+    "displayName": "Link",
+    "icon": "bulletList",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "path": {
+      "type": "string"
+    },
+    "children": {
+      "type": "component",
+      "repeatable": true,
+      "component": "navigation.sub-navigasi-atas"
+    }
+  }
+}

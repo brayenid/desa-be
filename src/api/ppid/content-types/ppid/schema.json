@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ppids",
+  "info": {
+    "singularName": "ppid",
+    "pluralName": "ppids",
+    "displayName": "Publikasi - PPID",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string",
+      "required": true
+    },
+    "category": {
+      "type": "enumeration",
+      "enum": [
+        "Secara Berkala",
+        "Serta Merta",
+        "Setiap Saat"
+      ],
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_budget_apb_des",
+  "info": {
+    "displayName": "APBDes",
+    "icon": "key",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "expenditure": {
+      "type": "component",
+      "repeatable": false,
+      "component": "budget.expenditure"
+    },
+    "income": {
+      "type": "component",
+      "repeatable": false,
+      "component": "budget.income"
+    },
+    "financing": {
+      "type": "component",
+      "repeatable": true,
+      "component": "budget.reception"
+    },
+    "url": {
+      "type": "string",
+      "required": false
+    }
+  }
+}

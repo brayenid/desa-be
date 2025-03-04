@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_resident_based_on_ages",
+  "info": {
+    "displayName": "Based On Age",
+    "icon": "doctor"
+  },
+  "options": {},
+  "attributes": {
+    "age": {
+      "type": "integer"
+    },
+    "total": {
+      "type": "integer"
+    }
+  }
+}

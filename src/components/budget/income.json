@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_budget_incomes",
+  "info": {
+    "displayName": "Income",
+    "icon": "check",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "originalIncome": {
+      "type": "integer"
+    },
+    "transferIncome": {
+      "type": "integer"
+    },
+    "miscIncome": {
+      "type": "integer"
+    }
+  }
+}

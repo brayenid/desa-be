@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_navigation_sub_navigasi_atas",
+  "info": {
+    "displayName": "Sub Link",
+    "icon": "bulletList",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "path": {
+      "type": "string"
+    }
+  }
+}

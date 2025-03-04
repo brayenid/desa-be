@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_sgds_sg_ds",
+  "info": {
+    "displayName": "SGDs",
+    "icon": "apps"
+  },
+  "options": {},
+  "attributes": {
+    "indicator": {
+      "type": "string",
+      "required": true
+    },
+    "value": {
+      "type": "decimal",
+      "required": true
+    }
+  }
+}

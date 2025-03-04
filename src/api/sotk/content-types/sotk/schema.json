@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sotks",
+  "info": {
+    "singularName": "sotk",
+    "pluralName": "sotks",
+    "displayName": "Profil - SOTK",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "role": {
+      "type": "string",
+      "required": true
+    },
+    "img": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "level": {
+      "type": "enumeration",
+      "enum": [
+        "L1",
+        "L2",
+        "L3",
+        "L4"
+      ],
+      "default": "L4",
+      "required": true
+    }
+  }
+}

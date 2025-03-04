@@ -1,0 +1,53 @@
+{
+  "kind": "collectionType",
+  "collectionName": "idms",
+  "info": {
+    "singularName": "idm",
+    "pluralName": "idms",
+    "displayName": "Data - IDM",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "year": {
+      "type": "integer",
+      "unique": true,
+      "required": true,
+      "min": 2000
+    },
+    "currentScore": {
+      "type": "float",
+      "required": true
+    },
+    "stats": {
+      "type": "string",
+      "required": true
+    },
+    "statsTarget": {
+      "type": "string",
+      "required": true
+    },
+    "minScore": {
+      "type": "decimal",
+      "required": true
+    },
+    "social": {
+      "type": "decimal",
+      "required": true
+    },
+    "economy": {
+      "type": "decimal",
+      "required": true
+    },
+    "ecology": {
+      "type": "decimal",
+      "required": true
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}
