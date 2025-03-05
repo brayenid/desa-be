@@ -1,0 +1,32 @@
+version: '3'
+services:
+  strapi:
+    build: .
+    container_name: strapi
+    ports:
+      - '1338:1338'
+    depends_on:
+      - db
+    environment:
+      DATABASE_CLIENT: postgres
+      DATABASE_HOST: db
+      DATABASE_PORT: 5432
+      DATABASE_NAME: desaweb
+      DATABASE_USERNAME: postgres
+      DATABASE_PASSWORD: fenomenal28
+      NODE_ENV: production
+
+  db:
+    image: postgres:latest
+    container_name: postgres
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: fenomenal28
+      POSTGRES_DB: desaweb
+    ports:
+      - '5432:5432'
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+
+volumes:
+  postgres-data:
