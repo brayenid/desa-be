@@ -1,2 +1,0 @@
-- name: Debug SSH_HOST
-  run: echo "SSH_HOST=${{ secrets.SSH_HOST }}"
