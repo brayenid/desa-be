@@ -20,7 +20,7 @@ jobs:
           key: ${{ secrets.SSH_KEY }}
           port: 22
           script: |
-            cd ~/desa/be
+            cd ~/desa/desa-be
             git pull origin master
             git status
             npm run install
