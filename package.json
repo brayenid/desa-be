@@ -8,7 +8,8 @@
     "deploy": "strapi deploy",
     "dev": "strapi develop",
     "start": "strapi start",
-    "strapi": "strapi"
+    "strapi": "strapi",
+    "start-pm2": "pm2 start server.js --name be"
   },
   "dependencies": {
     "@strapi/plugin-cloud": "5.8.1",
