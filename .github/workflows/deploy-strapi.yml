@@ -3,7 +3,7 @@ name: Deploy Strapi
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   deploy:
@@ -23,8 +23,8 @@ jobs:
       - name: Deploy to Server
         run: |
           ssh ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} << 'EOF'
-          cd /path/to/strapi/project
-          git pull origin main
+          cd ~/desa/be
+          git pull origin master
           npm install
           npm run build
           pm2 restart strapi
