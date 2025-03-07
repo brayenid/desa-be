@@ -26,12 +26,6 @@
       "type": "component",
       "repeatable": false,
       "component": "footer.footer"
-    },
-    "bigCategory": {
-      "displayName": "Big Category",
-      "type": "component",
-      "repeatable": true,
-      "component": "big-category.big-category"
     }
   }
 }
