@@ -143,7 +143,13 @@ export interface FooterFooter extends Struct.ComponentSchema {
   };
   attributes: {
     contacts: Schema.Attribute.Component<'footer.contacts-link', true>;
-    socials: Schema.Attribute.Component<'footer.social-media', true>;
+    socials: Schema.Attribute.Component<'footer.social-media', true> &
+      Schema.Attribute.SetMinMax<
+        {
+          max: 3;
+        },
+        number
+      >;
   };
 }
 
@@ -156,15 +162,7 @@ export interface FooterSocialMedia extends Struct.ComponentSchema {
   };
   attributes: {
     icon: Schema.Attribute.Enumeration<
-      [
-        'instagram',
-        'facebook',
-        'telegram',
-        'twitter',
-        'whatsapp',
-        'tiktok',
-        'youtube',
-      ]
+      ['instagram', 'facebook', 'twitter', 'whatsapp', 'tiktok', 'youtube']
     >;
     provider: Schema.Attribute.String & Schema.Attribute.Required;
     url: Schema.Attribute.String & Schema.Attribute.Required;

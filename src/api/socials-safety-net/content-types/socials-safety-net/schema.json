@@ -23,6 +23,12 @@
     "year": {
       "type": "integer",
       "required": true
+    },
+    "safetynetReceipent": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::safetynets-recipient.safetynets-recipient",
+      "inversedBy": "types"
     }
   }
 }

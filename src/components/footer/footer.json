@@ -15,7 +15,8 @@
     "socials": {
       "type": "component",
       "repeatable": true,
-      "component": "footer.social-media"
+      "component": "footer.social-media",
+      "max": 3
     }
   }
 }

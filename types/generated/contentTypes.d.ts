@@ -976,8 +976,8 @@ export interface ApiSafetynetsRecipientSafetynetsRecipient
     > &
       Schema.Attribute.Private;
     publishedAt: Schema.Attribute.DateTime;
-    type: Schema.Attribute.Relation<
-      'oneToOne',
+    types: Schema.Attribute.Relation<
+      'oneToMany',
       'api::socials-safety-net.socials-safety-net'
     >;
     updatedAt: Schema.Attribute.DateTime;
@@ -1069,6 +1069,10 @@ export interface ApiSocialsSafetyNetSocialsSafetyNet
     > &
       Schema.Attribute.Private;
     publishedAt: Schema.Attribute.DateTime;
+    safetynetReceipent: Schema.Attribute.Relation<
+      'manyToOne',
+      'api::safetynets-recipient.safetynets-recipient'
+    >;
     source: Schema.Attribute.String & Schema.Attribute.Required;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &

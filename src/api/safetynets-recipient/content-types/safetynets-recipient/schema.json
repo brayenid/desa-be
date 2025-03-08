@@ -24,10 +24,11 @@
     "birth": {
       "type": "date"
     },
-    "type": {
+    "types": {
       "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::socials-safety-net.socials-safety-net"
+      "relation": "oneToMany",
+      "target": "api::socials-safety-net.socials-safety-net",
+      "mappedBy": "safetynetReceipent"
     }
   }
 }
