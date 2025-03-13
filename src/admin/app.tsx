@@ -1,3 +1,4 @@
+import { setPluginConfig } from '@_sh/strapi-plugin-ckeditor'
 import type { StrapiApp } from '@strapi/strapi/admin'
 
 export default {
@@ -29,7 +30,8 @@ export default {
       // 'vi',
       // 'zh-Hans',
       // 'zh',
-    ]
+    ],
+    tutorials: false
   },
   bootstrap(app: StrapiApp) {
     console.log(app)

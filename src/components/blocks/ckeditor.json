@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_blocks_ckeditors",
+  "info": {
+    "displayName": "CK Editor",
+    "icon": "pencil",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "ckmd": {
+      "type": "customField",
+      "options": {
+        "preset": "defaultHtml"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    }
+  }
+}

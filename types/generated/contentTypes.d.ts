@@ -413,7 +413,9 @@ export interface ApiArticleArticle extends Struct.CollectionTypeSchema {
     draftAndPublish: true;
   };
   attributes: {
-    blocks: Schema.Attribute.DynamicZone<['blocks.rich-text', 'blocks.image']>;
+    blocks: Schema.Attribute.DynamicZone<
+      ['blocks.rich-text', 'blocks.image', 'blocks.ckeditor']
+    >;
     categories: Schema.Attribute.Relation<
       'manyToMany',
       'api::article-cat.article-cat'

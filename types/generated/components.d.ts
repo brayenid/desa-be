@@ -13,6 +13,24 @@ export interface BigCategoryBigCategory extends Struct.ComponentSchema {
   };
 }
 
+export interface BlocksCkeditor extends Struct.ComponentSchema {
+  collectionName: 'components_blocks_ckeditors';
+  info: {
+    description: '';
+    displayName: 'CK Editor';
+    icon: 'pencil';
+  };
+  attributes: {
+    ckmd: Schema.Attribute.RichText &
+      Schema.Attribute.CustomField<
+        'plugin::ckeditor5.CKEditor',
+        {
+          preset: 'defaultHtml';
+        }
+      >;
+  };
+}
+
 export interface BlocksImage extends Struct.ComponentSchema {
   collectionName: 'components_blocks_images';
   info: {
@@ -331,6 +349,7 @@ declare module '@strapi/strapi' {
   export module Public {
     export interface ComponentSchemas {
       'big-category.big-category': BigCategoryBigCategory;
+      'blocks.ckeditor': BlocksCkeditor;
       'blocks.image': BlocksImage;
       'blocks.markdown': BlocksMarkdown;
       'blocks.rich-text': BlocksRichText;
