@@ -7,20 +7,20 @@
   },
   "options": {},
   "attributes": {
-    "govExpenditure": {
-      "type": "integer"
-    },
     "villageDevelopment": {
-      "type": "integer"
+      "type": "biginteger"
     },
     "communityDev": {
-      "type": "integer"
+      "type": "biginteger"
     },
     "communityEmpowerment": {
-      "type": "integer"
+      "type": "biginteger"
     },
     "emergencyExpenditure": {
-      "type": "integer"
+      "type": "biginteger"
+    },
+    "govExpenditure": {
+      "type": "biginteger"
     }
   }
 }

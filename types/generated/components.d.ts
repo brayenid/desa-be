@@ -89,11 +89,11 @@ export interface BudgetExpenditure extends Struct.ComponentSchema {
     icon: 'check';
   };
   attributes: {
-    communityDev: Schema.Attribute.Integer;
-    communityEmpowerment: Schema.Attribute.Integer;
-    emergencyExpenditure: Schema.Attribute.Integer;
-    govExpenditure: Schema.Attribute.Integer;
-    villageDevelopment: Schema.Attribute.Integer;
+    communityDev: Schema.Attribute.BigInteger;
+    communityEmpowerment: Schema.Attribute.BigInteger;
+    emergencyExpenditure: Schema.Attribute.BigInteger;
+    govExpenditure: Schema.Attribute.BigInteger;
+    villageDevelopment: Schema.Attribute.BigInteger;
   };
 }
 
@@ -105,9 +105,9 @@ export interface BudgetIncome extends Struct.ComponentSchema {
     icon: 'check';
   };
   attributes: {
-    miscIncome: Schema.Attribute.Integer;
-    originalIncome: Schema.Attribute.Integer;
-    transferIncome: Schema.Attribute.Integer;
+    miscIncome: Schema.Attribute.BigInteger;
+    originalIncome: Schema.Attribute.BigInteger;
+    transferIncome: Schema.Attribute.BigInteger;
   };
 }
 
@@ -123,7 +123,7 @@ export interface BudgetReception extends Struct.ComponentSchema {
     role: Schema.Attribute.Enumeration<['Penerimaan', 'Pengeluaran']> &
       Schema.Attribute.Required &
       Schema.Attribute.DefaultTo<'Penerimaan'>;
-    total: Schema.Attribute.Integer;
+    total: Schema.Attribute.BigInteger;
   };
 }
 

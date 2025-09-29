@@ -8,13 +8,13 @@
   "options": {},
   "attributes": {
     "originalIncome": {
-      "type": "integer"
+      "type": "biginteger"
     },
     "transferIncome": {
-      "type": "integer"
+      "type": "biginteger"
     },
     "miscIncome": {
-      "type": "integer"
+      "type": "biginteger"
     }
   }
 }
